@@ -1,0 +1,54 @@
+Arguments: 
+  E:\NODEJS\node.exe C:\Users\viend\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\NODEJS\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\viend\AppData\Local\Microsoft\WindowsApps;C:\Users\viend\AppData\Roaming\npm;E:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 11040:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "react-hooks",
+    "version": "0.1.1",
+    "private": true,
+    "dependencies": {
+      "gh-pages": "^2.1.1",
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "react-scripts": "^3.1.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "homepage": "https://taniarascia.github.io/react-hooks"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
